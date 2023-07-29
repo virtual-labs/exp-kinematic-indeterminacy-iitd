@@ -2,18 +2,17 @@
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Dr. Pruthviraj U | NITK |
+|  1   | Prof. Suresh Bhalla | IIT DElhi |
 
 ### Lab Developers (Coding):
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Anusha B Salian | NITK |
+|  1   | Sayed Sameer Hasan | IIT Delhi |
 
 ### Content Developers (Subject matter):
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Mahima N | NITK |
-|  2   | Ashika Pai | NITK |
-|  3   | Aishwarya Shetty | NITK |
+|  1   | Prof. Suresh Bhalla | IIT Delhi |
+|  2   | Sayed Sameer Hasan | IIT Delhi |
