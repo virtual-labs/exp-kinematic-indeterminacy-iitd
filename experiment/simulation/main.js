@@ -15,6 +15,7 @@
           document.getElementById("output1e").textContent = "(3) No of Hinges (H) = 0" ;
           document.getElementById("nextButton1").style.visibility="visible";
           document.getElementById("addspecimen1").style.visibility="hidden";
+          document.getElementById("output1aw").style.visibility="hidden";
 
         }, 1000);
         function showSlowly1a() {
@@ -39,18 +40,18 @@
         if (input1a == "" && input2a == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output1a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output1aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output1a").style.display = "block";
+          document.getElementById("output1aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output1a").textContent = "Wrong Input Values.{ HINT: C = 1 }";
+       document.getElementById("output1aw").textContent = "Wrong Input, R = 4, J = 3, H = 0";
        document.getElementById("blink-image1").style.visibility="visible";
        document.getElementById("addspecimen1").style.visibility="hidden";
-       document.getElementById("output1a").style.display = "block";
+       document.getElementById("output1aw").style.display = "block";
 
       }
 
@@ -75,6 +76,8 @@
           document.getElementById("output2e").textContent = "(3) No of Hinges (H) = 2" ;
           document.getElementById("addspecimen2").style.visibility="hidden";
           document.getElementById("nextButton2").style.visibility="visible";
+          document.getElementById("output2aw").style.visibility="hidden";
+
         }, 1000);
         function showSlowly2a() {
           var img = document.getElementById("blink-image2");
@@ -99,19 +102,19 @@
         if (input1b == "" && input2b == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output2a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output2aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output2a").style.display = "block";
+          document.getElementById("output2aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output2a").textContent = "Wrong Input Values.{ HINT: R = 3 }";
+       document.getElementById("output2aw").textContent = "Wrong Input, R = 5, J = 5, H = 2  ";
        document.getElementById("blink-image2").style.visibility="visible";
        document.getElementById("addspecimen2").style.visibility="hidden";
 
-      document.getElementById("output2a").style.display = "block";
+      document.getElementById("output2aw").style.display = "block";
 
       }
 
@@ -135,6 +138,8 @@
           document.getElementById("output3e").textContent = "(3) Conditions of inextensibility (Ci) = 3" ;
           document.getElementById("addspecimen3").style.visibility="hidden";
           document.getElementById("nextButton3").style.visibility="visible";
+          document.getElementById("output3aw").style.visibility="hidden";
+
         }, 1000);
         function showSlowly3a() {
           var img = document.getElementById("blink-image3");
@@ -158,18 +163,18 @@
         if (input1c == "" && input2c == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output3a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output3aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output3a").style.display = "block";
+          document.getElementById("output3aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output3a").textContent = "Wrong Input Values.{ HINT: C = 2 }";
+       document.getElementById("output3aw").textContent = "Wrong Input, R = 6, J = 4, Ci = 3";
        document.getElementById("blink-image3").style.visibility="visible";
        document.getElementById("addspecimen3").style.visibility="hidden";
-      document.getElementById("output3a").style.display = "block";
+      document.getElementById("output3aw").style.display = "block";
 
       }
 
@@ -195,6 +200,7 @@
           document.getElementById("output4d").textContent = "(2) No of Reactions (R) = 6" ;
           document.getElementById("output4e").textContent = "(3) Conditions of inextensibility (Ci) = 6" ;
           document.getElementById("output4f").textContent = "(4) No. of Releases (f) = 2" ;
+          document.getElementById("output4aw").style.visibility="hidden";
 
           document.getElementById("addspecimen4").style.visibility="hidden";
           document.getElementById("nextButton4").style.visibility="visible";
@@ -222,18 +228,18 @@
         if (input1d == "" && input2d == "" && input3d == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output4a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output4aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output4a").style.display = "block";
+          document.getElementById("output4aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output4a").textContent = "Wrong Input Values.{ HINT: B = 6 }";
+       document.getElementById("output4aw").textContent = "Wrong Input, R = 6, J = 6, Ci = 6, f= 2   ";
        document.getElementById("blink-image4").style.visibility="visible";
        document.getElementById("addspecimen4").style.visibility="hidden";
-      document.getElementById("output4a").style.display = "block";
+      document.getElementById("output4aw").style.display = "block";
 
       }
 
@@ -258,6 +264,7 @@
           document.getElementById("output5e").textContent = "(5) Geometricaly Unstable." ;
           document.getElementById("addspecimen5").style.visibility="hidden";
           document.getElementById("nextButton5").style.visibility="visible";
+          document.getElementById("output5aw").style.visibility="hidden";
 
         }, 1000);
         function showSlowly5a() {
@@ -281,18 +288,18 @@
         if (input1e == "" && input2e == "" && input3e == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output5a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output5aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output5a").style.display = "block";
+          document.getElementById("output5aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output5a").textContent = "Wrong Input Values.{ HINT: R = 4 }";
+       document.getElementById("output5aw").textContent = "Wrong Input, R = 3, J = 6 ";
        document.getElementById("blink-image5").style.visibility="visible";
        document.getElementById("addspecimen5").style.visibility="hidden";
-      document.getElementById("output5a").style.display = "block";
+      document.getElementById("output5aw").style.display = "block";
 
       }
 
@@ -320,6 +327,8 @@
           document.getElementById("output6e").textContent = "(3) Conditions of Members (M) = 6" ;
           document.getElementById("addspecimen6").style.visibility="hidden";
           document.getElementById("nextButton6").style.visibility="visible";
+          document.getElementById("output6aw").style.visibility="hidden";
+
         }, 1000);
         function showSlowly6a() {
           var img = document.getElementById("blink-image6");
@@ -342,18 +351,18 @@
         if (input1f == "" && input2f == "" && input3f == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output6a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output6aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output6a").style.display = "block";
+          document.getElementById("output6aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output6a").textContent = "Wrong Input Values.{ HINT: R = 6 }";
+       document.getElementById("output6aw").textContent = "Wrong Input, R = 7,J = 12, M = 15  ";
        document.getElementById("blink-image6").style.visibility="visible";
        document.getElementById("addspecimen6").style.visibility="hidden";
-      document.getElementById("output6a").style.display = "block";
+      document.getElementById("output6aw").style.display = "block";
 
       }
 
@@ -409,6 +418,8 @@ document.getElementById("nextButton3").style.visibility="hidden";
 document.getElementById("nextButton4").style.visibility="hidden";
 document.getElementById("nextButton5").style.visibility="hidden";
 document.getElementById("nextButton6").style.visibility="hidden";
+document.getElementById("nextButton6").style.visibility="hidden";
+
 document.getElementById("canvas1").style.visibility="visible";
 
 }
