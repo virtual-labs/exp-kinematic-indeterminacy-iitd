@@ -1,21 +1,21 @@
 
  function displayText1() {
       const input1a = document.getElementById("input1a").value;
-      const input2a = document.getElementById("input2a").value;
-      const input3a = document.getElementById("input3a").value;
-
+      
       // Check if input1 is 4 and input2 is 3
-      if (input1a == 4 && input2a == 3 && input3a == 0) { 
+      if (input1a == 3 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output1a").innerHTML = (3 *(parseFloat(input2a))) - parseFloat(input1a) + parseFloat(input3a) ;
-          document.getElementById("output1b").textContent = "Degree of Kinematic Indeterminacy = 3J - R + H" ;
-          document.getElementById("output1c").textContent = "(1) No of Joints (J)= 3" ;
-          document.getElementById("output1d").textContent = "(2) No of Reactions (J) = 4" ;
-          document.getElementById("output1e").textContent = "(3) No of Hinges (H) = 0" ;
+          document.getElementById("output1aw").style.visibility="hidden";
+        }, 1);
+        setTimeout(function() {
+
+          document.getElementById("output1a").innerHTML = "3" ;
+          document.getElementById("output1b").textContent = "No of independent rotations = 3" ;
+          document.getElementById("output1c").textContent = "(2) No of Reactions (J) = 4" ;
+          
           document.getElementById("nextButton1").style.visibility="visible";
           document.getElementById("addspecimen1").style.visibility="hidden";
-          document.getElementById("output1aw").style.visibility="hidden";
 
         }, 1000);
         function showSlowly1a() {
@@ -34,10 +34,9 @@
         document.getElementById("output1a").style.display = "block"; 
         document.getElementById("output1b").style.display = "block"; 
         document.getElementById("output1c").style.display = "block"; 
-        document.getElementById("output1d").style.display = "block"; 
-        document.getElementById("output1e").style.display = "block"; }
+        }
 
-        if (input1a == "" && input2a == "") { 
+        if (input1a == "" ) { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
             document.getElementById("output1aw").textContent = "Please Fill the Required Fields.";
@@ -48,7 +47,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output1aw").textContent = "Wrong Input, R = 4, J = 3, H = 0";
+       document.getElementById("output1aw").textContent = "Wrong Input, Independent rotations = 3";
        document.getElementById("blink-image1").style.visibility="visible";
        document.getElementById("addspecimen1").style.visibility="hidden";
        document.getElementById("output1aw").style.display = "block";
@@ -62,18 +61,17 @@
     
     function displayText2() {
       const input1b = document.getElementById("input1b").value;
-      const input2b = document.getElementById("input2b").value;
-      const input3b = document.getElementById("input3b").value;
+
 
       // Check if input1 is 3 and input2 is 2
-      if (input1b == 5 && input2b == 5 && input3b == 2) { 
+      if (input1b == 5 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output2a").innerHTML = (3 *(parseFloat(input2b))) - parseFloat(input1b) + parseFloat(input3b) ;
-          document.getElementById("output2b").textContent = "Degree of Kinematic Indeterminacy = 3J - R + H" ;
-          document.getElementById("output2c").textContent = "(1) No of Joints (J)= 5" ;
-          document.getElementById("output2d").textContent = "(2) No of Reactions (R) = 5" ;
-          document.getElementById("output2e").textContent = "(3) No of Hinges (H) = 2" ;
+          document.getElementById("output2a").innerHTML = "5" ;
+          document.getElementById("output2b").textContent = "No of independent rotations = 5" ;
+          document.getElementById("output2c").textContent = "(1) No of Reactions (R) = 5" ;
+          document.getElementById("output2d").textContent = "(2) Conditions of construction C = 2" ;
+
           document.getElementById("addspecimen2").style.visibility="hidden";
           document.getElementById("nextButton2").style.visibility="visible";
           document.getElementById("output2aw").style.visibility="hidden";
@@ -99,7 +97,7 @@
         document.getElementById("output2d").style.display = "block"; 
         document.getElementById("output2e").style.display = "block"; }
 
-        if (input1b == "" && input2b == "") { 
+        if (input1b == "" ) { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
             document.getElementById("output2aw").textContent = "Please Fill the Required Fields.";
@@ -110,7 +108,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output2aw").textContent = "Wrong Input, R = 5, J = 5, H = 2  ";
+       document.getElementById("output2aw").textContent = "Wrong Input, Independent rotations = 5 ";
        document.getElementById("blink-image2").style.visibility="visible";
        document.getElementById("addspecimen2").style.visibility="hidden";
 
@@ -132,7 +130,7 @@
         // Slowly display the text after 2 seconds
         setTimeout(function() {
           document.getElementById("output3a").innerHTML = (3 *(parseFloat(input2c))) - parseFloat(input1c) - parseFloat(input3c) ;
-          document.getElementById("output3b").textContent = "Degree of Kinematic Indeterminacy = 3J - R + H" ;
+          document.getElementById("output3b").innerHTML = "Degree of Kinematic Indeterminacy = 3J - R - C<sub>i</sub>" ;
           document.getElementById("output3c").textContent = "(1) No of Joints (J)= 6" ;
           document.getElementById("output3d").textContent = "(2) No of Reactions (R) = 4" ;
           document.getElementById("output3e").textContent = "(3) Conditions of inextensibility (Ci) = 3" ;
@@ -261,7 +259,6 @@
           document.getElementById("output5b").textContent = "(2) Kinematic Indeterminacy = 2J - R" ;
           document.getElementById("output5c").textContent = "(3) No of Joints (J)= 6" ;
           document.getElementById("output5d").textContent = "(4) No of Reactions (R) = 3  " ;
-          document.getElementById("output5e").textContent = "(5) Geometricaly Unstable." ;
           document.getElementById("addspecimen5").style.visibility="hidden";
           document.getElementById("nextButton5").style.visibility="visible";
           document.getElementById("output5aw").style.visibility="hidden";
@@ -283,9 +280,8 @@
         document.getElementById("output5a").style.display = "block"; 
         document.getElementById("output5b").style.display = "block"; 
         document.getElementById("output5c").style.display = "block"; 
-        document.getElementById("output5d").style.display = "block"; 
-        document.getElementById("output5e").style.display = "block"; }
-        if (input1e == "" && input2e == "" && input3e == "") { 
+        document.getElementById("output5d").style.display = "block"; }
+        if (input1e == "" && input2e == "" ) { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
             document.getElementById("output5aw").textContent = "Please Fill the Required Fields.";
@@ -321,7 +317,7 @@
         // Slowly display the text after 2 seconds 
         setTimeout(function() {
           document.getElementById("output6a").innerHTML = (3 *(parseFloat(input2f))) - parseFloat(input1f) - parseFloat(input3f) ;
-          document.getElementById("output6b").textContent = "Kinematic Indeterminacy = 3J - R - M"  ;
+          document.getElementById("output6b").innerHTML = "Kinematic Indeterminacy = 3J - R - C<sub>i</sub>"  ;
           document.getElementById("output6c").textContent = "(1) No of Joints (J)= 6 " ;
           document.getElementById("output6d").textContent = "(2) No of Reactions (R) = 6  " ;
           document.getElementById("output6e").textContent = "(3) Conditions of Members (M) = 6" ;

@@ -2,13 +2,13 @@
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Prof. Suresh Bhalla | IIT DElhi |
+|  1   | Prof. Suresh Bhalla | IIT Delhi |
 
 ### Lab Developers (Coding):
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Sayed Sameer Hasan | IIT Delhi |
+|  1   | Sayed Sameer hasan | IIT Delhi |
 
 ### Content Developers (Subject matter):
 
