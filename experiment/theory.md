@@ -1,22 +1,16 @@
 ### Theory
 
-Kinematic indeterminacy refers to the number of unknown displacements in a structure that must be determined using equilibrium equations. The degree of kinematic indeterminacy of a structure depends on its type and the number of support reactions it has.
+Kinematic indeterminacy refers to the number of independent displacements in a structure in terms of which all other displacements can be expressed. The degree of kinematic indeterminacy of a structure depends on its type (beam, frame, truss etc.) and the number type of supports. The degree of kinematic indeterminacy (DKI) is also called as the degree of freedom. Determination of DKI is the first step in structural analysis using displacement method such as slope deflection method, moment distribution method and the matrix/direct stiffness method.
+<br>
+ In contrast to static indeterminacy, which arises from an excess of unknown internal forces or moments, kinematic indeterminacy arises from unknown independent displacements (translations & rotations). The kinematic indeterminacy increases by introduction of members. It can be reduced by the addition constraints or boundary conditions that restrict the possible deformations of the structure. For example, fixing one end of a beam compared to roller support can reduce the DOF of the structure. 
+ <br>
+The presence of internal hinges or deformable connections leads to increase in kinematic indeterminacy, as these elements introduce additional degrees of freedom that cannot be determined from the external loads and geometry alone. Kinematic indeterminacy can have practical implications for the design and analysis of structures, as it can affect the distribution of internal forces and stresses and the overall stability of the structure. Overall, the degree of kinematic indeterminacy is an important factor to consider when designing structures and analyzing their behavior under load. 
+<br><br>
+<strong><u>Formula used to find the degree of kinematic indeterminacy</u></strong> <strong>Beams (inextensible)---------- inextensibility
+- DKI for Plain Truss ------------ (2J - R)
+- DKI for Plain Frame ------------ (3J - R)
+- DKI for Plain Frame with inextensible members ------------ (3J - R - C)
+- DKI for Plain Frame with inextensible members and releases ------------ (3j - R - C<sub>i</sub> + F)
+                 </strong><br>
+                 J = No of joints, R = reactions, C = conditions of constructions, F = Releases
 
-In general, for a structure with n degrees of freedom (DOF), the degree of kinematic indeterminacy is given by:
-
-I = 3r - n
-
-where r is the number of support reactions. This equation is based on the fact that each support reaction provides three equations of equilibrium (sum of forces in x, y, and z directions) and each DOF requires one equation of equilibrium.
-
-For example, a simply supported beam has two support reactions and two DOF (one at each end), so its degree of kinematic indeterminacy is:
-
-I = 3(2) - 2 = 4
-
-This means that four unknown displacements (e.g., deflections and rotations) must be determined using equilibrium equations.
-
-In contrast to static indeterminacy, which arises from an excess of unknown internal forces or moments, kinematic indeterminacy arises from an excess of unknown displacements or rotations. One way to increase the kinematic indeterminacy of a structure is to introduce redundant members or supports that do not contribute to the structural stiffness or load-carrying capacity but increase the number of unknown displacements.
-and It can also be reduced by adding constraints or boundary conditions that restrict the possible deformations of the structure. For example, fixing one end of a beam or introducing a roller support can reduce the DOF of the structure.
-
-The presence of internal hinges or deformable connections can also lead to kinematic indeterminacy, as these elements introduce additional degrees of freedom that cannot be determined from the external loads and geometry alone.
-
-Kinematic indeterminacy can have practical implications for the design and analysis of structures, as it can affect the distribution of internal forces and stresses and the overall stability of the structure. Overall, the degree of kinematic indeterminacy is an important factor to consider when designing structures and analyzing their behavior under load.
