@@ -77,22 +77,23 @@
 
           document.getElementById("addspecimen2").style.visibility="hidden";
           document.getElementById("nextButton2").style.visibility="visible";
+          document.getElementById("blink-image2").style.visibility="visible";
 
-        }, 1000);
-        function showSlowly2a() {
-          var img = document.getElementById("blink-image2");
-          img.style.opacity = 0;
-          img.style.display = "block";
-          var tick = function() {
-            img.style.opacity = +img.style.opacity + 0.01;
-            if (+img.style.opacity < 1) {
-              (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
-            }
-          };
-          tick();
-        }
-        showSlowly2a();
-        document.getElementById("output2a").style.display = "block";
+
+      }, 1000);
+      function showSlowly2a() {
+        var img = document.getElementById("blink-image2");
+        img.style.opacity = 0;
+        img.style.display = "block";
+        var tick = function() {
+          img.style.opacity = +img.style.opacity + 0.01;
+          if (+img.style.opacity < 1) {
+            (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+          }
+        };
+        tick();
+      }
+      showSlowly2a();
         document.getElementById("output2a").style.display = "block"; 
         document.getElementById("output2b").style.display = "block"; 
         document.getElementById("output2c").style.display = "block"; 
@@ -322,7 +323,7 @@
 
 
       // Check if input1 is 6 and input2 is 6 input3 is 6 input4 is 2
-      if (input1f == 7 && input2f == 12 && input3f == 15 ) { 
+      if (input1f == 6 && input2f == 12 && input3f == 15 ) { 
         // Slowly display the text after 2 seconds 
         setTimeout(function() {
           document.getElementById("output6aw").style.visibility="hidden";
@@ -366,7 +367,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output6aw").textContent = "Wrong Input, R = 7,J = 12, M = 15  ";
+       document.getElementById("output6aw").textContent = "Wrong Input, R = 6,J = 12, M = 15  ";
        document.getElementById("blink-image6").style.visibility="visible";
        document.getElementById("addspecimen6").style.visibility="hidden";
       document.getElementById("output6aw").style.display = "block";
