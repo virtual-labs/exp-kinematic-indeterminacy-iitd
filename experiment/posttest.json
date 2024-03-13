@@ -9,10 +9,8 @@
         "d": "2"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "kinematic indeterminacy for a beam having one end hinge and other end roller"
+
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -22,14 +20,12 @@
       "answers": {
         "a": "Unstable",
         "b": "Have moments at both the ends",
-        "c": "is kinematically indeterminate",
-        "d": "is kinematically determinate"
+        "c": "Kinematically indeterminate",
+        "d": "Kinematically determinate"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -43,10 +39,9 @@
         "d": "3"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "a": "Vertical guided roller resists horizontal/axial force and bending moment. However, it cannot resist vertical forces as it slides down along the plane."
+
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -61,16 +56,15 @@
         "d": "6"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "c": "The degree of freedom of a joint for a rigid jointed plane frame is (horizontal sway, vertical sway, and rotation.)"
+
       },
-      "correctAnswer": "b",
+      "correctAnswer": "3",
       "difficulty": "moderate"
     },
     {
-      "question": "4. The degree of freedom for a pin jointed plane frame is_____",
+      "question": "5. The degree of freedom for a pin jointed plane frame is_____",
       "answers": {
         "a": "3J - m - r",
         "b": "3J + m - r",
@@ -78,10 +72,9 @@
         "d": "2J + m"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        
+        "c": "The degree of freedom for a pin jointed space frame is given by 3j – r, where j is the number of joints and r is the number of reactions."
+        
       },
       "correctAnswer": "c",
       "difficulty": "moderate"

@@ -1,41 +1,39 @@
 {
   "version": 2.0,
   "questions": [{
-      "question": "1. The number of unknowns to be determined in the stiffness method is equal to_____",
+      "question": "1. The number of unknowns to be determined in the stiffness method is known as_____",
       "answers": {
         "a": "Static indeterminacy",
         "b": "Kinematic indeterminacy",
-        "c": "Difference of Static indeterminacy and kinematic indeterminacy",
+        "c": "Difference of Static indeterminacy and kinematic indeterminacy ",
         "d": "Static indeterminacy / Kinematic indeterminacy"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        
+        "b": "The number of unknowns to be determined in the stiffness method is called kinematic indeterminacy"
+        
+       
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "2. The DKI of truss is ________",
+      "question": "2. The DKI of plane truss is ________",
       "answers": {
-        "a": "3j – r",
-        "b": "j – r ",
-        "c": "4j – r ",
-        "d": "2j – r "
+        "a": "3J – r",
+        "b": "J – r ",
+        "c": "4J – r ",
+        "d": "2J – r "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+       
+        "d": "The DKI of plane truss is 2J – r"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "4",
       "difficulty": "beginner"
     },
     {
-      "question": "3. An internal hinge in a plane frame increase DKI by N (N = No. of member meeting at the joint). ",
+      "question": "3. An internal hinge in a plane frame increase DKI by  (N = No. of member meeting at the joint). ",
       "answers": {
         "a": "N",
         "b": "N – 2 ",
@@ -43,12 +41,10 @@
         "d": "2N"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "An internal hinge in a plane frame increase DKI by N where N is Number of members meeting at the joint "
+
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
@@ -60,16 +56,14 @@
         "d": "3j + r"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The DKI of a plane frame with extensible member is 3j – r "
+
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "4. The DKI of a continuous beam is equal to_____",
+      "question": "5. The DKI of a continuous beam is equal to_____",
       "answers": {
         "a": "No. of supports",
         "b": "No. of supports + 1     ",
@@ -77,10 +71,7 @@
         "d": "None of above "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "The DKI of a continuous beam is equal to number of supports + 1"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
