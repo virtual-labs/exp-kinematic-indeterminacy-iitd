@@ -1,0 +1,81 @@
+{
+  "version": 2.0,
+  "questions": [{
+      "question": "1. The number of unknowns to be determined in the stiffness method is known as_____",
+      "answers": {
+        "a": "Static indeterminacy",
+        "b": "Kinematic indeterminacy",
+        "c": "Difference of Static indeterminacy and kinematic indeterminacy ",
+        "d": "Static indeterminacy / Kinematic indeterminacy"
+      },
+      "explanations": {
+        
+        "b": "The number of unknowns to be determined in the stiffness method is called kinematic indeterminacy"
+        
+       
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The DKI of plane truss is ________",
+      "answers": {
+        "a": "3J – r",
+        "b": "J – r ",
+        "c": "4J – r ",
+        "d": "2J – r "
+      },
+      "explanations": {
+       
+        "d": "The DKI of plane truss is 2J – r"
+      },
+      "correctAnswer": "4",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. An internal hinge in a plane frame increase DKI by  (N = No. of member meeting at the joint). ",
+      "answers": {
+        "a": "N",
+        "b": "N – 2 ",
+        "c": "N – 1",
+        "d": "2N"
+      },
+      "explanations": {
+        "a": "An internal hinge in a plane frame increase DKI by N where N is Number of members meeting at the joint "
+
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The DKI of a plane frame with extensible member is_____",
+      "answers": {
+        "a": "3j – r",
+        "b": "2j – r  ",
+        "c": "2j + r  ",
+        "d": "3j + r"
+      },
+      "explanations": {
+        "a": "The DKI of a plane frame with extensible member is 3j – r "
+
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The DKI of a continuous beam is equal to_____",
+      "answers": {
+        "a": "No. of supports",
+        "b": "No. of supports + 1     ",
+        "c": "No. of independent rotations",
+        "d": "None of above "
+      },
+      "explanations": {
+        "b": "The DKI of a continuous beam is equal to number of supports + 1"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+    
+  ]
+}

@@ -2,7 +2,7 @@
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Prof. Suresh Bhalla | IIT DElhi |
+|  1   | Prof. Suresh Bhalla | IIT Delhi |
 
 ### Lab Developers (Coding):
 
