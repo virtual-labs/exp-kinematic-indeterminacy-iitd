@@ -1,1 +1,1 @@
-##  Determination of Kinematic Indeterminacy 
+##  Kinematic Indeterminacy 
