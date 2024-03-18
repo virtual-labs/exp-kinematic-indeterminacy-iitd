@@ -57,10 +57,10 @@
       },
       "explanations": {
 
-        "c": "The degree of freedom of a joint for a rigid jointed plane frame is (horizontal sway, vertical sway, and rotation.)"
+ "c": "The degree of freedom of a joint for a rigid jointed plane frame is 3 (horizontal sway, vertical sway, and rotation.)"
 
       },
-      "correctAnswer": "3",
+      "correctAnswer": "c",
       "difficulty": "moderate"
     },
     {
