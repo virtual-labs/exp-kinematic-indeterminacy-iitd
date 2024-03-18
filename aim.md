@@ -1,0 +1,1 @@
+#### This experiment aims to determine the degree of kinematic indeterminacy of different type of structures.
