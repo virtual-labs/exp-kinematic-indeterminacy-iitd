@@ -40,7 +40,7 @@
       },
       "explanations": {
 
-        "a": "Vertical guided roller resists horizontal/axial force and bending moment. However, it cannot resist vertical forces as it slides down along the plane."
+        "b": "Vertical guided roller resists horizontal/axial force and bending moment. However, it cannot resist vertical forces as it slides down along the plane."
 
       },
       "correctAnswer": "b",
